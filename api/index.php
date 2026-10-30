@@ -1,2 +1,4 @@
-<h1>Travelling Entertainers</h1>
-<p>coming soon</p>
+<?php
+$title = "Home";
+require "layout.php";
+?>
