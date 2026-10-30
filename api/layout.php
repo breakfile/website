@@ -5,8 +5,11 @@
 	<style>
     	body {
       		font-family: Helvetica, Arial, "Liberation Sans", sans-serif;
-    	}
-  </style>
+	}
+	ul {
+		list-style-type: square;
+	}
+	</style>
 </head>
 <body>
 <center>
