@@ -3,8 +3,11 @@ $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 
 // routes
 if ($path === '/') {
-    require __DIR__ . '/home.php';
-    return;
+	require __DIR__ . '/home.php';
+	return;
+} elseif ($path === '/social') {
+	require __DIR__ . '/social.php';
+	return;
 }
 
 http_response_code(404);
