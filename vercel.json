@@ -4,8 +4,6 @@
   },
   "routes": [
     { "handle": "filesystem" },
-    { "src": "/", "dest": "/api/index.php" },
-    { "handle": "error" },
-    { "status": 404, "src": "/(.*)", "dest": "/api/404.php" }
+    { "src": "/(.*)", "dest": "/api/index.php" }
   ]
 }

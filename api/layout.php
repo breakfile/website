@@ -7,7 +7,7 @@
 <center>
 <h1>travellingentertainers.com</h1>
 <nav>
-<a href="/index.php">Home</a>
+<a href="/">Home</a>
 </nav>
 </center>
 <hr>

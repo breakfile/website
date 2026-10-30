@@ -1,5 +1,5 @@
 <?php
-$title = "404";
+$title = "Home";
 require "layout.php";
 ?>
 <h1>Error 404</h1>
